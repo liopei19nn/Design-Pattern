@@ -9,6 +9,10 @@
 // 6. Dependency Inversion Principle : Depend upon abstractions. DO NOT Depend upon concrete classes.
 // 7. Principle of Least Knowledge : talk only to your immediate friends. Limit the object method call to reduce the object dependency
 // 8. Hollywood Principle : Don’t call us, we’ll call you. The Hollywood principle gives us a way to prevent “dependency rot.” With the Hollywood Principle, we allow low-level components to hook themselves into a system, but the high-level components determine when they are needed, and how. In other words, the high-level components give the low-level components a “don’t call us, we’ll call you” treatment.
+// 9. Single Responsibility Principle : A class should have only one reason to change. Every responsibility of a class is an area of potential change. More than one responsibility means more than one area of change.
+
+
+
 
 // Comparison of Dependency Inversion Principle and Hollywood Principle 
 /*
@@ -141,21 +145,46 @@
 */
 
 
-/*  Comparison of Template Method, Strategy and Factory Method
+
+
+
+/*11.Iterator Pattern
+
+	provides a way to access the elements of an aggregate object 
+	sequentially without exposing its underlying representation.
+
+
+*/
+
+/*12. The Composite Pattern 
+
+	allows you to compose objects into tree structures to represent part-whole 
+	hierarchies. Composite lets clients treat individual objects and compositions 
+	of objects uniformly.
+
+
+	
+*/
+
+
+/*  Comparisons
 
 	Strategy : Encapsulate interchangeble behaviors and use delegation to decide which behavior to use
 
 	Template Method : Subclasses decide how to implement steps in an algorithm, algorithm is set in super abstract class
 
 	Factory Method : Subclass decide which concrete class to create. Factory Method is a specialization of Template Method
+	
+	Adapter : Change the interface of one or more classes
 
+	Iterator : Provides a way to traverse a collection of objects without exposing the collections's implementation.
+
+	Facade : Simplifiy the interface of a group of classes
+
+	Composite : Clients treat collections of objects and individual of objects uniformly
+
+	Observer : Allows a group of objects to be notified when some state changes
 */
-
-
-
-
-
-
 
 
 
