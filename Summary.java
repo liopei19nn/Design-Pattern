@@ -167,6 +167,21 @@
 */
 
 
+
+
+
+/*13.State Pattern
+
+	allows an object to alter its behavior when its internal state changes. 
+	The object will appear to change its class.
+
+	State transitions can be controlled by the State classes or by the Context classes.
+
+	The class diagram is same to Strategy Pattern, but the intent is not the same
+
+*/
+
+
 /*  Comparisons
 
 	Strategy : Encapsulate interchangeble behaviors and use delegation to decide which behavior to use
@@ -184,8 +199,8 @@
 	Composite : Clients treat collections of objects and individual of objects uniformly
 
 	Observer : Allows a group of objects to be notified when some state changes
-*/
 
+	State : Encapsulate state-based behavior and delegate behavior to the current state
 
 
 
