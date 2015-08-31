@@ -1,5 +1,9 @@
 //Good OO designs are reusable, extensible and maintainable.
 
+// A pattern is a solution to a problem in a context
+
+
+
 // Object Oriented Principles
 // 1. Encapsulate What Varies
 // 2. Favor composition than inheritance
@@ -96,6 +100,7 @@
 	
 	ensures a class has only one instance,
 	and provides a global point of access to it.
+
 */
 
 /*7.Command Pattern
@@ -182,6 +187,98 @@
 */
 
 
+
+/* 14. Proxy Pattern
+
+	provides a surrogate or placeholder for another object
+	to control access to it
+
+*/
+
+/* 15. Virtual Proxy
+
+
+	access objects that is expensive to create
+
+*/
+
+/* 16. Protection Proxy 
+
+	Used control and limit access to method
+
+*/
+
+/* 17. Compound Pattern
+
+	A Compound Pattern combines two or more patterns into a solution that
+	solves a recurring or general problem
+	
+*/
+
+/* 18. Bridge Pattern
+	Use the Bridge Pattern to vary not only your implementations, 
+	but also your abstractions.
+*/
+
+/* 19. Builder Pattern 
+
+	Use the Builder Pattern to encapsulate the construction of a product and allow it to 
+	be constructed in steps.
+*/
+
+/* 20. Chain of Responsibility
+	
+	Use the Chain of Responsibility Pattern when you want to give 
+	more than one object a chance to handle a request.
+
+
+*/
+
+/* 21. Flyweight Pattern
+
+	Use the Flyweight Pattern when one instance of a class
+	can be used to provide many "virtual instance"
+	
+*/ 
+
+/* 22. Interpreter Pattern 
+	
+	Use the Interpreter Pattern to build an interpreter for a language.	
+
+*/
+
+/* 23. Mediator Pattern
+	
+	Use the Mediator Pattern to centralize complex communications and control between related objects.	
+*/
+
+/* 24. Memento Pattern
+
+	Use the Memento Pattern when you need to be able to return an 
+	object to one of its previous states; for instance, if your user 
+	requests an “undo.”
+*/
+
+
+/* 25. Prototype Pattern
+
+	Use the Prototype Pattern when creating an instance 
+	of a given class is either expensive or complicated.
+	
+	allows you to make new instances by copying existing instances
+*/
+
+
+/* 26. Visitor Pattern
+
+	Use the Visitor Pattern when you want to add 
+	capabilities to a composite of objects and 
+	encapsulation is not important.
+
+
+*/
+
+
 /*  Comparisons
 
 	Strategy : Encapsulate interchangeble behaviors and use delegation to decide which behavior to use
@@ -202,5 +299,44 @@
 
 	State : Encapsulate state-based behavior and delegate behavior to the current state
 
+*/
 
+
+// Classification of pattern
+
+// Creational Pattern :
+// Involve object instantiation and all provide a way
+// to decouple a client from the objctes it needs to instantiate
+
+// Singleton, Builder, Prototype, Abstract Factory, Factory Method
+
+
+
+// Behavioral Pattern :
+// Any pattern that is a Behavioral Pattern is concerned with how classes
+// and objects interact and distributed responsibility
+
+// Mediator, Visitor, Template Method, Iterator, Command, Memento, Interpreter, Observer
+// Chain of Responsibility, State, Strategy
+
+
+
+// Structual Pattern :
+// Compose classes or objects into larger structures
+
+// Decorator, Composite, Proxy, Facade, Bridge, Flyweight, Adapter
+
+
+// Classification Approach 2
+
+// Class Patterns :
+
+// Describe how relationship between classes are defined via inheritance. Relationships in class
+// patterns are established at compile time
+
+// Template method, factory method, adapter, interpreter
+
+// Object Patterns : 
+// Object patterns describe relationships between objects and are primarily defined by composition. Relationships in object patterns are typically created at runtime and
+// are more dynamic and flexible.
 
